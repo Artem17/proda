@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+    <script type="text/javascript" src="/js/ajax.js"></script>
+    
+    <title>Logo Nav - Start Bootstrap Template</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>       
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2 logo">
+                    <img src="images/logo.png">PRODA - и Ваша посуда довольна!
+                </div>
+                <!--переключатель-->
+                <div class="col-xs-offset-7 col-xs-1 onoffswitch">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                        <label class="onoffswitch-label" for="myonoffswitch">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                </div>
+                <div class="col-xs-offset-8 col-xs-2 tumbler">
+                    <p>переключиться на светлый дизайн</p>
+                </div>
+                <div class="col-xs-offset-7 col-xs-3 header-phone">
+                    <p>8 800 123 456 78</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+                <!--1 блок-->
+    <section class="block1">
+        <div class="container">
+            <div class="row">
+                <form class="col-sm-4 contact-form1" id="form1" action="send.php" method="post">
+                    <div class="contact-border">
+                        <p>Запросить условия сотрудничества</p>
+                        <input class="name" name="name" type="text" maxlength="20" placeholder="Имя" required /><span>*</span><br/>
+                        <input class="email" name="mail" type="text" maxlength="20" placeholder="email" required /><span>*</span><br/>
+                        <input class="phone" name="phone" type="text" maxlength="20" placeholder="Телефон">
+                    </div>
+                    <div class="container">
+            			<div class="row">    
+                        <input class="col-sm-offset-1 col-sm-2 call-me" type="submit" value="ЗАПРОСИТЬ" name="button" data-toggle="modal" href="http://fiddle.jshell.net/bHmRB/51/show/" data-target="#myModal"></input>
+                    	</div>
+                	</div>
+                </form>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#3">продукты</a><br/></li>
+                        <li><a href="#5">о нас</a><br/></li>
+                        <li><a href="#4">преимущества</a><br/></li>
+                        <li><a href="#7">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+<!-- Modal -->
+<!--<script type="text/javascript">
+                        setTimeout(function(){$('.modal-dialog').fadeOut('fast')},5000);  //5000 = 5 секунд
+                    </script>-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <!--<div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Modal title</h4>
+
+            </div>-->
+            
+            <div class="modal-body">
+            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            	<div class="te">Спасибо за вопрос, с Вами свяжется наш специалист в ближайшее время</div>
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+                        <!--/всплывающее окно-->
+    <!--<div class="box1" id="form2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 box">
+                    <script type="text/javascript">
+                        setTimeout(function(){$('.box').fadeOut('fast')},5000);  //5000 = 5 секунд
+                    </script>
+                    <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+                    <script type="text/javascript"></script>
+                    <p>Спасибо за вопрос, с Вами свяжется наш специалист в ближайшее время</p>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+                <!--/всплывающее окно-->
+    </section>
+                <!--2 блок-->
+    <section class="block2">
+        <div class="container">
+            <div class="row" id="border1">
+                <h2>СТАРТ ПРОДАЖ! ВЫГОДНЫЕ УСЛОВИЯ ДЛЯ ОРГАНИЗАТОРОВ СП</h2>
+                <p>Скидки закончатся через</p>
+                <div class="count">
+                    <script src="http://megatimer.ru/s/785398eb367c0c4678648235761d1a48.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+                <!--3 блок-->
+    <section class="block3" id="3">
+        <section class="block3-img">
+            <div class="container">
+                <div class="row">
+                    <div class="block3-img-1">
+                        <img class="col-sm-offset-1 col-sm-4" src="images/classic2.png">
+                    </div>
+                    <div class="block3-img-2">
+                        <img class="col-sm-offset-2 col-sm-4" src="images/premium2.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ceny">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-2 cena1">
+                        <p>218₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ceny">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-7 col-sm-2 cena2">
+                        <p>218₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="description-land">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-4 description-land1">
+                        <h2>PRODA Classic</h2>
+                        <h3>бережный уход за вашей посудой</h3>
+                        <p>30 штук</p>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-4 description-land2">
+                        <h2>PRODA Premium</h2>
+                        <h3>Мощная сила идеальной чистоты</h3>
+                        <p>30 штук</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="description-ul">
+            <div class="container">
+                <div class="row">
+                    <ul class="col-sm-offset-1 col-sm-4">
+                            <li>эффективное удаление жира</li>
+                            <li>смягчение воды</li>
+                            <li>не оставляет пятен и разводов</li>
+                            <li>бережная защита стекла</li>
+                            <li>защита и блеск стали</li>
+                            <li>защита и блеск стали</li>
+                            <li>без запаха</li>
+                            <li>предотвращает образование накипи</li>
+                    </ul>
+                    <ul class="col-sm-offset-2 col-sm-4">
+                            <li>эффективное удаление жира</li>
+                            <li>смягчение воды</li>
+                            <li>не оставляет пятен и разводов</li>
+                            <li>бережная защита стекла</li>
+                            <li>защита и блеск стали</li>
+                            <li>без запаха</li>
+                            <li>предотвращает образование накипи</li>
+                            <li>с функцией ополаскивателя</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+                <!--4 блок-->
+    <section class="block4" id="4">
+        <div class="container">
+            <div class="row" id="border4">
+    <section class="block4-img">
+        <div class="container">
+            <div class="row">
+                <span class="col-xs-offset-1 col-xs-1 icon-piggy-bank"></span>
+                <span class="col-xs-offset-2 col-xs-1 icon-french-perfume"></span>
+                <span class="col-xs-offset-2 col-xs-1 icon-leaf"></span>
+                <span class="col-xs-offset-2 col-xs-1 icon-wash"></span>
+            </div>
+        </div>
+    </section>
+    <section class="block4-p-big">
+        <div class="container">
+            <div class="row">
+                <p class="col-xs-3">ПРИВЛЕКАТЕЛЬНАЯ<br/>ЦЕНА</p>
+                <p class="col-xs-3">БЕЗ ЗАПАХА</p>
+                <p class="col-xs-3">БЕЗОПАСНОСТЬ</p>
+                <p class="col-xs-3">ВЫСОКАЯ<br/>ЭФФЕКТИВНОСТЬ</p>
+            </div>
+        </div>
+    </section>
+    <section class="block4-p">
+        <div class="container">
+            <div class="row">
+                <p class="col-xs-3">качественный и<br/>безопасный продукт<br/>по доступной цене</p>
+                <p class="col-xs-3">Ваша посуда после<br/>мытья пахнет чистотой,<br/>а не химией</p>
+                <p class="col-xs-3">в составе таблеток<br/>отсутствуют опасные<br/>для здоровья человека<br/>компоненты</p>
+                <p class="col-xs-3">не оставляет разводов и<br/>потёков на посуде<br/>справляется даже<br/>с пригоревшими<br/>загрязнениями</p>
+            </div>
+        </div>
+    </section>
+            </div>
+        </div>
+    </section>
+                <!--5 блок-->
+    <section class="block5" id="5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-8 text-centr">
+                    <p>Компания ООО "Ода-Торг" уже не первый год является крупным оптовым партнёром многих известных российских и западных производителей профессиональной, безопасной бытовой химии.</p>
+                    <p>С 2017 года наша компания начала продавать таблетки для ПММ под собственной TM PRODA.</p>
+                    <p>Вся продукция производится на новом импортном оборудовании, с использованием безопасного, но эффективного сырья.</p>
+                    <p>При этом, мы постарались сделать нашу цену выгодной для клиентов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+                <!--6 блок-->
+    <section class="block6">
+    <div class="container">
+    <div class="row" id="border6">
+        <section class="block6-img">
+            <div class="container">
+                <div class="row">
+                    <div class="icons">
+                    <div class="text-vstavka"><p>Работая с нами, Вы получаете:</p></div>
+                    <span class="col-sm-offset-1 col-sm-1 icon-opt"></span>
+                    <span class="col-sm-offset-2 col-sm-1 icon-avto"></span>
+                    <span class="col-sm-offset-2 col-sm-1 icon-skidki"></span>
+                    <span class="col-sm-offset-2 col-sm-1 icon-manager"></span>
+                </div>
+            </div>
+        </section>
+        <section class="block6-p-big" id="6">
+        <div class="container">
+            <div class="row">
+                    <p class="col-sm-offset-1 col-sm-1">ОПТОВЫЕ ЦЕНЫ</p>
+                    <p class="col-sm-offset-2 col-sm-1">УДОБНУЮ ДОСТАВКУ</p>
+                    <p class="col-sm-offset-2 col-sm-1">ПРИЯТНЫЕ СКИДКИ</p>
+                    <p class="col-sm-offset-1 col-sm-3">ПЕРСОНАЛЬНОГО<br/> МЕНЕДЖЕРА</p>
+            </div>
+        </div>
+        </section>
+        <section class="block6-p">
+        <div class="container">
+            <div class="row">
+                    <p class="col-sm-3">наши оптовые цены начинаются при заказе от 5000 рублей</p>
+                    <p class="col-sm-3">доставка любой транспортной компанией по всей России</p>
+                    <p class="col-sm-3">гибкая система скидок применяется к оптовым ценам от 20 000 рублей</p>
+                    <p class="col-sm-3">персональный менеджер проконсультирует вас круглосуточно</p>
+                <div class="col-sm-12 text-vstavka2"><p>МЫ БУДЕМ РАДЫ ВИДЕТЬ ВАС В ЧИСЛЕ НАШИХ ПАРТНЁРОВ</p></div>
+            </div>
+        </div>
+        </section>
+    </div>
+    </div>
+    </section>
+                <!--7 блок-->
+    <section class="block7" id="7">
+        <div class="container">
+            <div class="row" id="border7">
+                <div class="block7-description">
+                    <h3>Заинтересовало наше предложение?</h3>
+                    <p>Оставьте свой номер телефона - мы перезвоним вам и ответим на все ваши вопросы.</p>
+                </div>
+                <form class="contact-form2" id="form1" action="send.php" method="post">
+                    <input class="col-sm-offset-1 col-sm-2 name2" name="name" type="text" maxlength="20" placeholder="Имя" required/><span class="col-sm-1">*</span></input>
+                    <input class="col-sm-offset-1 col-sm-2 email2" name="mail" type="text" maxlength="20" placeholder="email" required /></input>
+                    <input class="col-sm-offset-2 col-sm-2 phone2" name="phone" type="text" maxlength="20" placeholder="Телефон"></input><span class="col-sm-1">*</span>
+                    <input class="col-sm-offset-4 col-sm-3 call-me2" type="submit" value="ПЕРЕЗВОНИТЕ МНЕ" name="button" data-toggle="modal" href="http://fiddle.jshell.net/bHmRB/51/show/" data-target="#myModal"></input>
+                </form>
+            </div>
+        </div>
+    </section>
+                <!--8 блок-->
+    <section class="block8">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-5 footer-phone icon-smartphone"><!--<img src="images/icon9.jpg">--> 8-927 260-07-57; 8 846 201-46-86</div>
+                <div class="col-sm-offset-1 col-sm-4 footer-email icon-mail"><!--<img src="images/icon10.jpg">--> e-mail: info@odastore.ru</div>
+                <div class="col-sm-offset-3 col-sm-6 footer-adres icon-place-localizer"><!--<img src="images/icon11.jpg">--> г. Самара, ул. Ново-Садовая 44, офис 321</div>
+            </div>
+        </div>
+    </section>
+                <!--9 блок-->
+    <section class="block9">
+        <div class="container">
+            <div class="row">
+                <div class="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4a636134654242ff463497aec3c2f50b02e42977f8525c04e9e765658e170cbe&amp;width=100%&amp;height=300&amp;lang=ru_RU&amp;scroll=true">
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section class="box">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4 box1">
+        Спасибо за вопрос, с Вами свяжется наш специалист в ближайшее время
+        <script type="text/javascript">
+	setTimeout(function(){$('.box').fadeOut('fast')},5000);  //5000 = 5 секунд
+        </script>
+                </div>
+            </div>
+        </div>    
+    </section>-->
+                <!-- Подвал сайта -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <p class="copyright">© 2017 Proda Все права защищены</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://scriptjava.net/source/scriptjava/scriptjava.js"></script>
+   
+</body>
+
+</html>
+

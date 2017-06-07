@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?n9j1wl');
+  src:  url('fonts/icomoon.eot?n9j1wl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?n9j1wl') format('truetype'),
+    url('fonts/icomoon.woff?n9j1wl') format('woff'),
+    url('fonts/icomoon.svg?n9j1wl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bottom:before {
+  content: "\e900";
+  color: #f6f6f6;
+}
+.icon-french-perfume:before {
+  content: "\e901";
+}
+.icon-leaf:before {
+  content: "\e902";
+}
+.icon-mail:before {
+  content: "\e903";
+}
+.icon-piggy-bank:before {
+  content: "\e904";
+}
+.icon-place-localizer:before {
+  content: "\e905";
+}
+.icon-smartphone:before {
+  content: "\e906";
+}
+.icon-top:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-wash:before {
+  content: "\e908";
+}
+.icon-avto:before {
+  content: "\e909";
+}
+.icon-manager:before {
+  content: "\e90a";
+}
+.icon-opt:before {
+  content: "\e90b";
+}
+.icon-skidki:before {
+  content: "\e90c";
+}
+
